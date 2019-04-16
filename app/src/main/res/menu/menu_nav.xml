@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Dishes">
+        <menu>
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/pizza_nav"
+        android:title="@string/nav_pizza"
+        android:icon="@drawable/ic_local_pizza_black_24dp" />
+
+    <item
+        android:id="@+id/drinks_nav"
+        android:title="Drinks"
+        android:icon="@drawable/drink" />
+
+    <item
+        android:id="@+id/pasta_nav"
+        android:title="Pasta"
+        android:icon="@drawable/rest" />
+
+
+    </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Support">
+<menu>
+    <item
+        android:id="@+id/address_nav"
+        android:title="@string/nav_address"
+        android:icon="@drawable/map" />
+
+    <item
+        android:id="@+id/nav2"
+        android:title="E-mail"
+        android:icon="@android:drawable/sym_action_email" />
+</menu>
+
+    </item>
+</menu>
